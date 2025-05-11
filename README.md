@@ -3,17 +3,18 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-orange?style=flat&logo=scikitlearn)
 ![pandas](https://img.shields.io/badge/pandas-1.3.3-blue?style=flat&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-1.21.2-013243?style=flat&logo=numpy)
-![Neural Networks](https://img.shields.io/badge/Neural%20Networks-Deep%20Learning-blue?style=flat&logo=tensorflow)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8.2-11557C?style=flat&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-4C72B0?style=flat&logo=tableau&logoColor=white)
 
-A machine learning model that summarizes long text passages using an LSTM-based neural network. Built with TensorFlow on the backend and powered by a modern UI using Next.js and Tailwind CSS. The API layer is handled by Flask, allowing real-time summarization of user input.
+This project focuses on predicting stock price movements using machine learning models including Logistic Regression, Support Vector Machines (SVM), and XGBoost. It involves preprocessing historical stock data, feature scaling, training classification models, and evaluating their performance. The goal is to determine the best algorithm for forecasting future stock trends based on past data.
 
 ## Tech Stack
 - ` Python ` : versatile, high-level, interpreted, easy-to-learn programming language.
 - ` Scikit-Learn `: A powerful Python library for machine learning.
-- ` Numpy `: A powerful Python library for machine learning.
-- ` Pandas `: A powerful Python library for machine learning.
-- ` Matplotlib `: A powerful Python library for machine learning.
-- ` Seaborn `: A powerful Python library for machine learning.
+- ` Numpy `: A fundamental package for numerical computing in Python, enabling fast array and matrix operations.
+- ` Pandas `: A powerful library for data manipulation and analysis, built on top of NumPy.
+- ` Matplotlib `:  A comprehensive library for creating static, animated, and interactive visualizations in Python.
+- ` Seaborn `: A high-level data visualization library based on Matplotlib, offering beautiful and informative statistical graphics.
 
 
 
@@ -24,39 +25,16 @@ First, clone the repository to your local machine:
 
 
 ```bash
-git clone https://github.com/rahul-shrivastav/NLP-text-summarizer.git
+git clone https://github.com/rahul-shrivastav/Stock-price-prediction.git
 ```
 ### 2. Install Dependencies
 Change the directory and Install the required dependencies by running:
 
 ```bash
-cd NLP-text-summarizer/backend
+cd Stock-price-prediction
 pip install -r requirements.txt
-cd ../frontend
-npm install
 ```
-
-### 3. Setup Environment Variables in Frontend folder
-
-To run this project, you will need to add the following environment variables to your .env file in frontend
-```bash
-VITE_API
-```
-A sample .evn file is also provided in the repository.
-
-
-### 4. Run the application locally
-
-Navigate to `/backend` and run the development backend server :
-
-```bash
-python app.py
-```
-Now navigate to `/frontend` and run the development frontend server :
-```bash
-npm run dev
-```
-Open port `5173` on `localhost` with your browser to see the result. 
+Now you can run the `.ipynb` file and use the model.
 
 
 
